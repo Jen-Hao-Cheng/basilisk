@@ -22,3 +22,15 @@ add_executable(main_bsk_2a main_bsk_2a.cpp
     ./source/cppModuleTemplate.cpp
 )
 target_link_libraries(main_bsk_2a ARCHITECTURE)
+
+# bsk-3
+add_executable(main_bsk_3 main_bsk_3.cpp
+    ./source/cppModuleTemplate.cpp
+)
+target_link_libraries(main_bsk_3 ARCHITECTURE)
+
+# bsk-4
+add_executable(main_bsk_4 main_bsk_4.cpp
+    ./source/cppModuleTemplate.cpp
+)
+target_link_libraries(main_bsk_4 ARCHITECTURE)
