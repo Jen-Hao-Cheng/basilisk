@@ -34,3 +34,8 @@ add_executable(main_bsk_4 main_bsk_4.cpp
     ./source/cppModuleTemplate.cpp
 )
 target_link_libraries(main_bsk_4 ARCHITECTURE)
+
+# test_eigen_kinematics
+add_executable(test_eigen_kinematics test_eigen_kinematics.cpp
+)
+target_link_libraries(test_eigen_kinematics ARCHITECTURE)
